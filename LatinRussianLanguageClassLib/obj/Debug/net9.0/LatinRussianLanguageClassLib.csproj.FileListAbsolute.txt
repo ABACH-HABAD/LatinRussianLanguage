@@ -1,0 +1,12 @@
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\bin\Debug\net9.0\LatinRussianLanguageClassLib.deps.json
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\bin\Debug\net9.0\LatinRussianLanguageClassLib.dll
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\bin\Debug\net9.0\LatinRussianLanguageClassLib.pdb
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\obj\Debug\net9.0\LatinRussianLanguageClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\obj\Debug\net9.0\LatinRussianLanguageClassLib.AssemblyInfoInputs.cache
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\obj\Debug\net9.0\LatinRussianLanguageClassLib.AssemblyInfo.cs
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\obj\Debug\net9.0\LatinRussianLanguageClassLib.csproj.CoreCompileInputs.cache
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\obj\Debug\net9.0\LatinRussianLanguageClassLib.sourcelink.json
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\obj\Debug\net9.0\LatinRussianLanguageClassLib.dll
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\obj\Debug\net9.0\refint\LatinRussianLanguageClassLib.dll
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\obj\Debug\net9.0\LatinRussianLanguageClassLib.pdb
+C:\Users\peter\Desktop\Разное\Разработка\LatinRussianLanguage\LatinRussianLanguageClassLib\obj\Debug\net9.0\ref\LatinRussianLanguageClassLib.dll

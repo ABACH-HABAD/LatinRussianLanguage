@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\peter\\Desktop\\Разное\\Разработка\\LatinRussiuanLanguage\\LatinRussianLanguageClassLib\\LatinRussianLanguageClassLib.csproj",
+      "projectUniqueName": "C:\\Users\\peter\\Desktop\\Разное\\Разработка\\LatinRussianLanguage\\LatinRussianLanguageClassLib\\LatinRussianLanguageClassLib.csproj",
       "projectName": "LatinRussianLanguageClassLib",
-      "projectPath": "C:\\Users\\peter\\Desktop\\Разное\\Разработка\\LatinRussiuanLanguage\\LatinRussianLanguageClassLib\\LatinRussianLanguageClassLib.csproj",
+      "projectPath": "C:\\Users\\peter\\Desktop\\Разное\\Разработка\\LatinRussianLanguage\\LatinRussianLanguageClassLib\\LatinRussianLanguageClassLib.csproj",
       "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\peter\\Desktop\\Разное\\Разработка\\LatinRussiuanLanguage\\LatinRussianLanguageClassLib\\obj\\",
+      "outputPath": "C:\\Users\\peter\\Desktop\\Разное\\Разработка\\LatinRussianLanguage\\LatinRussianLanguageClassLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -69,20 +69,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[9.0.12, 9.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[9.0.12, 9.0.12]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[9.0.12, 9.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

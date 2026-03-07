@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "LatinRussianLanguage/1.0.0": {
+        "dependencies": {
+          "LatinRussianLanguageClassLib": "1.0.0"
+        },
+        "runtime": {
+          "LatinRussianLanguage.dll": {}
+        }
+      },
+      "LatinRussianLanguageClassLib/1.0.0": {
+        "runtime": {
+          "LatinRussianLanguageClassLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LatinRussianLanguage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LatinRussianLanguageClassLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0GHR0++aKs0=",
+  "dgSpecHash": "VpKooScAfq0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\peter\\Desktop\\Разное\\Разработка\\LatinRussiuanLanguage\\LatinRussianLanguageClassLib\\LatinRussianLanguageClassLib.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\peter\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.12\\microsoft.netcore.app.ref.9.0.12.nupkg.sha512",
-    "C:\\Users\\peter\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.12\\microsoft.windowsdesktop.app.ref.9.0.12.nupkg.sha512",
-    "C:\\Users\\peter\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.12\\microsoft.aspnetcore.app.ref.9.0.12.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\peter\\Desktop\\Разное\\Разработка\\LatinRussianLanguage\\LatinRussianLanguageClassLib\\LatinRussianLanguageClassLib.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
