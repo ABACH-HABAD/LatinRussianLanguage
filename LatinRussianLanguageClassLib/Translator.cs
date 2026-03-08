@@ -6,64 +6,45 @@ public class Translator
 {
     public static string Translate(string text)
     {
-        text = text.ToLower();
-
         StringBuilder translatedText = new(string.Empty);
-
-        bool lastIsSoft = false;
-        bool lastIsHard = false;
-        bool lastIsSign = false;
-        bool lastIsVowel = false;
 
         char last = ' ';
 
         for (int i = 0; i < text.Length; i++)
         {
             char letter = text[i];
-            if (Alphabet.Cyrillic.Contains(letter))
+            if (letter.IsCyrillic())
             {
-                if (Alphabet.CyrillicConsonant.Contains(letter))
+                if (letter.IsConsonant())
                 {
-                    if (letter == 'щ') translatedText.Append("š'");
-                    else translatedText.Append(ConsonantTranslator[letter]);
-
-                    if (letter == 'ч' || letter == 'й' || letter == 'щ') lastIsSoft = true;
-                    if (letter == 'ш' || letter == 'ж' || letter == 'ц') lastIsHard = true;
-
-                    lastIsSign = false;
-                    lastIsVowel = false;
+                    translatedText.Append(Alphabet.Consonant[letter]);
+                    if (letter == 'щ') translatedText.Append('\'');
                 }
-                else if (Alphabet.CyrillicVowel.Contains(letter))
+                else if (letter.IsVowel())
                 {
-                    if (letter == 'и' && lastIsHard) translatedText.Append(VowelTranslator['ы']);
-                    else if (Alphabet.CyrillicSoftVowel.Contains(letter))
+                    if (letter == 'и' && last.IsAlwaysHardConsonant()) letter = 'ы';
+
+                    if (letter.IsSoftVowel())
                     {
-                        if (i == 0 || last == ' ' || lastIsSign || lastIsVowel) translatedText.Append('j').Append(VowelTranslator[letter]);
-                        else if (lastIsSoft || last == 'ц') translatedText.Append(VowelTranslator[letter]);
-                        else translatedText.Append('\'').Append(VowelTranslator[letter]);
+                        if (i == 0 || char.IsWhiteSpace(last))
+                        {
+                            translatedText.Append(char.IsUpper(letter) ? 'J' : 'j');
+                            letter = char.ToLower(letter);
+                        }
+                        else if (last.IsSign() || last.IsVowel()) translatedText.Append('j');
+                        else if (!(last.IsAlwaysSoftConsonant() || last.IsAlwaysHardConsonant())) translatedText.Append('\'');
                     }
-                    else translatedText.Append(VowelTranslator[letter]);
 
-                    lastIsVowel = true;
-
-                    lastIsHard = false;
-                    lastIsSoft = false;
-                    lastIsSign = false;
+                    translatedText.Append(Alphabet.Vowel[letter]);
                 }
-                else if (Alphabet.CyrillicSign.Contains(letter))
+                else if (letter.IsSign())
                 {
-                    if (lastIsSign) continue;
-                    
+                    if (last.IsSign()) continue;
+
                     if (letter == 'ь')
                     {
-                        if (!lastIsHard && !lastIsSoft) translatedText.Append('\'');
+                        if (!last.IsAlwaysHardConsonant() && !last.IsAlwaysSoftConsonant()) translatedText.Append('\'');
                     }
-
-                    lastIsSign = true;
-
-                    lastIsHard = false;
-                    lastIsSoft = false;
-                    lastIsVowel = false;
                 }
             }
             else translatedText.Append(letter);
@@ -72,45 +53,4 @@ public class Translator
         }
         return translatedText.ToString();
     }
-
-    private static readonly Dictionary<char, char> ConsonantTranslator = new()
-    {
-        {'б', 'b'},
-        {'в', 'v'},
-        {'г', 'g'},
-        {'д', 'd'},
-        {'ж', 'ž'},
-        {'з', 'z'},
-        {'й', 'j'},
-        {'к', 'k'},
-        {'л', 'l'},
-        {'м', 'm'},
-        {'н', 'n'},
-        {'п', 'p'},
-        {'р', 'r'},
-        {'с', 's'},
-        {'т', 't'},
-        {'у', 'u'},
-        {'ф', 'f'},
-        {'х', 'h'},
-        {'ц', 'c'},
-        {'ч', 'č'},
-        {'ш', 'š'},
-    };
-
-    private static readonly Dictionary<char, char> VowelTranslator = new()
-    {
-        {'а', 'a'},
-        {'о', 'o'},
-        {'у', 'u'},
-        {'э', 'e'},
-        {'ы', 'y'},
-        {'и', 'i'},
-
-        //soft
-        {'е', 'e'},
-        {'ё', 'o'},
-        {'ю', 'u'},
-        {'я', 'a'},
-    };
 }

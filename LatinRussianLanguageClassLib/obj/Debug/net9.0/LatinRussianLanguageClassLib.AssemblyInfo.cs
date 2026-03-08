@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LatinRussianLanguageClassLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5254df25edee9e6f8fa966328ce972a91f198340")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89b00d846a52502c06d3a120f602775f796c3ec0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LatinRussianLanguageClassLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LatinRussianLanguageClassLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

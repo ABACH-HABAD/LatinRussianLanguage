@@ -5,7 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LatinRussianLanguage"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" 
+        Height="450" Width="800"
+        MinHeight="400"
+        MinWidth="600">
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="HeaderBlock">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="Border" x:Key="TranslationBorder">
+            <Setter Property="BorderBrush" Value="#FF5B5B5B"/>
+            <Setter Property="Background" Value="#FFD6D6D6"/>
+            <Setter Property="BorderThickness" Value="2"/>
+        </Style>
+        <Style TargetType="TextBox" x:Key="TranslationBox">
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -15,13 +36,17 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0">
+        <TextBlock Style="{StaticResource HeaderBlock}" Grid.Row="0" Grid.Column="0">
             Введите текст
         </TextBlock>
-        <TextBlock Grid.Row="0" Grid.Column="1">
+        <TextBlock Style="{StaticResource HeaderBlock}" Grid.Row="0" Grid.Column="1">
             Перевод
         </TextBlock>
-        <TextBox Margin="5" x:Name="CurrentText" Grid.Row="1" Grid.Column="0" BorderBrush="#FF525458" TextChanged="CurrentText_TextChanged"/>
-        <TextBlock Margin="5" x:Name="Translation" Grid.Row="1" Grid.Column="1"/>
+        <Border Style="{StaticResource TranslationBorder}" Margin="5" Grid.Row="1" Grid.Column="0" >
+            <TextBox Style="{StaticResource TranslationBox}" x:Name="CurrentText" TextChanged="CurrentText_TextChanged"/>
+        </Border>
+        <Border Style="{StaticResource TranslationBorder}" Margin="5" Grid.Row="1" Grid.Column="1" >
+            <TextBox Background="#FFD6D6D6" Style="{StaticResource TranslationBox}" x:Name="Translation"/>
+        </Border>
     </Grid>
 </Window>
