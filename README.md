@@ -42,7 +42,8 @@ private void CurrentText_TextChanged(object sender, TextChangedEventArgs e)
 ```
 #### LatinRussianLanguageClassLib.csproj (Библиотека классов)
 Метод ```Translate(string text)``` класса ```Translator``` выполняет всё работу по переводу текста  
-Аргументы: ```string text``` - исходный текст  
+Аргументы:  
+```string text``` - исходный текст  
 Результат: переведённый текст  
 ```cs
 public static string Translate(string text)
@@ -68,7 +69,7 @@ public static string Translate(string text)
 }
 ```
 Метод ```ProcessConsonant(char consonant, StringBuilder output)``` обрабатывает согласные буквы  
-Аргументы:
+Аргументы:  
 ```char consonant``` - символ согласной буквы  
 ```StringBuilder output``` - использующийся StringBuilder  
 ```cs
@@ -79,7 +80,7 @@ private static void ProcessConsonant(char consonant, StringBuilder output)
 }
 ```
 Метод ```ProcessVowel(char vowel, char previous, StringBuilder output)``` обрабатывает гласные буквы  
-Аргументы:
+Аргументы:  
 ```char vowel``` - символ гласной буквы  
 ```char previous``` - символ предыдущей буквы  
 ```StringBuilder output``` - использующийся StringBuilder  
@@ -102,7 +103,7 @@ private static void ProcessVowel(char vowel, char previous, StringBuilder output
 }
 ```
 Метод ```ProcessSign(char sign, char previous, StringBuilder output)``` обрабатывает знаки  
-Аргументы:
+Аргументы:  
 ```char signы``` - символ знака  
 ```char previous``` - символ предыдущей буквы  
 ```StringBuilder output``` - использующийся StringBuilder  
