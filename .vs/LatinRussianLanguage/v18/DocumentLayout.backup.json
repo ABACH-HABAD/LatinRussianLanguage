@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E39E94B2-C16D-F883-42B6-CD4CC1F1DFCD}|LatinRussianLanguage\\LatinRussianLanguage.csproj|c:\\users\\peter\\desktop\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\latinrussianlanguage\\latinrussianlanguage\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E39E94B2-C16D-F883-42B6-CD4CC1F1DFCD}|LatinRussianLanguage\\LatinRussianLanguage.csproj|solutionrelative:latinrussianlanguage\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39E94B2-C16D-F883-42B6-CD4CC1F1DFCD}|LatinRussianLanguage\\LatinRussianLanguage.csproj|c:\\users\\peter\\desktop\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\latinrussianlanguage\\latinrussianlanguage\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39E94B2-C16D-F883-42B6-CD4CC1F1DFCD}|LatinRussianLanguage\\LatinRussianLanguage.csproj|solutionrelative:latinrussianlanguage\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FD31BB4-7ACA-F572-2CF8-7EAB81922B27}|LatinRussianLanguageClassLib\\LatinRussianLanguageClassLib.csproj|c:\\users\\peter\\desktop\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\latinrussianlanguage\\latinrussianlanguageclasslib\\translator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD31BB4-7ACA-F572-2CF8-7EAB81922B27}|LatinRussianLanguageClassLib\\LatinRussianLanguageClassLib.csproj|solutionrelative:latinrussianlanguageclasslib\\translator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FD31BB4-7ACA-F572-2CF8-7EAB81922B27}|LatinRussianLanguageClassLib\\LatinRussianLanguageClassLib.csproj|c:\\users\\peter\\desktop\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\latinrussianlanguage\\latinrussianlanguageclasslib\\alphabet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD31BB4-7ACA-F572-2CF8-7EAB81922B27}|LatinRussianLanguageClassLib\\LatinRussianLanguageClassLib.csproj|solutionrelative:latinrussianlanguageclasslib\\alphabet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39E94B2-C16D-F883-42B6-CD4CC1F1DFCD}|LatinRussianLanguage\\LatinRussianLanguage.csproj|c:\\users\\peter\\desktop\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\latinrussianlanguage\\latinrussianlanguage\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39E94B2-C16D-F883-42B6-CD4CC1F1DFCD}|LatinRussianLanguage\\LatinRussianLanguage.csproj|solutionrelative:latinrussianlanguage\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39E94B2-C16D-F883-42B6-CD4CC1F1DFCD}|LatinRussianLanguage\\LatinRussianLanguage.csproj|c:\\users\\peter\\desktop\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\latinrussianlanguage\\latinrussianlanguage\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E39E94B2-C16D-F883-42B6-CD4CC1F1DFCD}|LatinRussianLanguage\\LatinRussianLanguage.csproj|solutionrelative:latinrussianlanguage\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,51 +38,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\LatinRussianLanguage\\MainWindow.xaml",
               "RelativeDocumentMoniker": "LatinRussianLanguage\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\LatinRussianLanguage\\MainWindow.xaml*",
-              "RelativeToolTip": "LatinRussianLanguage\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\LatinRussianLanguage\\MainWindow.xaml",
+              "RelativeToolTip": "LatinRussianLanguage\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-07T10:24:34.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\LatinRussianLanguage\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "LatinRussianLanguage\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\LatinRussianLanguage\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "LatinRussianLanguage\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBMAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\LatinRussianLanguage\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LatinRussianLanguage\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T09:59:34.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Translator.cs",
               "DocumentMoniker": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\LatinRussianLanguageClassLib\\Translator.cs",
               "RelativeDocumentMoniker": "LatinRussianLanguageClassLib\\Translator.cs",
               "ToolTip": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\LatinRussianLanguageClassLib\\Translator.cs",
               "RelativeToolTip": "LatinRussianLanguageClassLib\\Translator.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBwAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T10:05:39.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Alphabet.cs",
               "DocumentMoniker": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\LatinRussianLanguageClassLib\\Alphabet.cs",
               "RelativeDocumentMoniker": "LatinRussianLanguageClassLib\\Alphabet.cs",
               "ToolTip": "C:\\Users\\peter\\Desktop\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\LatinRussianLanguage\\LatinRussianLanguageClassLib\\Alphabet.cs",
               "RelativeToolTip": "LatinRussianLanguageClassLib\\Alphabet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABfAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwDEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T10:00:33.862Z",
               "EditorCaption": ""

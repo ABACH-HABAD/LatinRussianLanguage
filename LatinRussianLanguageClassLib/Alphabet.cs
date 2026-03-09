@@ -18,17 +18,17 @@ public static class Alphabet
     {
         return letter == 'й' || letter == 'Й' || letter == 'ч' || letter == 'Ч' || letter == 'щ' || letter == 'Щ';
     }
-    public static bool IsSoftVowel(this char letter)
-    {
-        return letter == 'е' || letter == 'Е' || letter == 'ё' || letter == 'Ё' || letter == 'ю' || letter == 'Ю' || letter == 'я' || letter == 'Я';
-    }
     public static bool IsVowel(this char letter)
     {
         return Vowel.ContainsKey(letter);
     }
+    public static bool IsSoftVowel(this char letter)
+    {
+        return letter == 'е' || letter == 'Е' || letter == 'ё' || letter == 'Ё' || letter == 'ю' || letter == 'Ю' || letter == 'я' || letter == 'Я';
+    }
     public static bool IsSign(this char letter)
     {
-        return letter == 'ь' || letter == 'ъ';
+        return letter == 'ь' || letter == 'ъ' || letter == 'Ь' || letter == 'Ъ';
     }
 
     internal static readonly Dictionary<char, char> Consonant = new()
@@ -48,7 +48,6 @@ public static class Alphabet
         {'р', 'r'},
         {'с', 's'},
         {'т', 't'},
-        {'у', 'u'},
         {'ф', 'f'},
         {'х', 'h'},
         {'ц', 'c'},
@@ -71,7 +70,6 @@ public static class Alphabet
         {'Р', 'R'},
         {'С', 'S'},
         {'Т', 'T'},
-        {'У', 'U'},
         {'Ф', 'F'},
         {'Х', 'H'},
         {'Ц', 'C'},

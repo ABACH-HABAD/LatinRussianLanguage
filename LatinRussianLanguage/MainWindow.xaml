@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LatinRussianLanguage"
         mc:Ignorable="d"
-        Title="MainWindow" 
+        Title="Переводчик" 
         Height="450" Width="800"
         MinHeight="400"
         MinWidth="600">
